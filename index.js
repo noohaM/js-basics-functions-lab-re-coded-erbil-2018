@@ -16,14 +16,13 @@ function distanceFromHqInFeet(feet){
    return distanceFromHqInBlocks(feet) * 264;
 }
 
-function distanceTravelledInFeet(start,end)
-{
-  if(start > end)
-  {
-    return (end-start)*264
-  }
-  else
-  {
-    return (start-end)*264
-  }
+function distanceTravelledInFeet(start,end){
+       if (end > start)
+       {
+       	 return (end - start)*264
+       }
+       else
+       {
+       	return (start - end)*264
+       }
 }
