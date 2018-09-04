@@ -26,3 +26,8 @@ function distanceTravelledInFeet(start,end){
        	return (start - end)*264
        }
 }
+
+distanceTravelledInFeet()
+{
+  
+}
