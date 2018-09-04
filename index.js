@@ -20,6 +20,6 @@ function distanceTravelledInFeet(start,end)
 {
   if(start>end)
   {
-    return (e-a)*264;
+    return (end-start)*264;
   }
 }
