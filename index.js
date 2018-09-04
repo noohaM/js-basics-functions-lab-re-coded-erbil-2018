@@ -29,6 +29,7 @@ function distanceTravelledInFeet(start,end){
 
 distanceTravelledInFeet(block)
 {
+  let block= distanceTravelledInFeet(start_b, end_b);
   if (block <= 400){
        return 0;
 	}else if(block> 400 && block<= 2000){
