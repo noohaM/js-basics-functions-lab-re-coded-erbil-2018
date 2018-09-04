@@ -11,7 +11,7 @@ function distanceFromHqInBlocks(block){
   }
 }
 
-function distanceFromHqInFeet(feet)
+function distanceFromHqInFeet(block)
 {
   let x = distanceFromHqInFeet(feet);
   
