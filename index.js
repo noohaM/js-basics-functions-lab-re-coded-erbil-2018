@@ -13,7 +13,7 @@ function distanceFromHqInBlocks(block){
 
 function distanceFromHqInFeet(block)
 {
-  let x = distanceFromHqInFeet(block);
   
-  return x*264;
+  
+  return distanceFromHqInFeet(block)*264;
 }
