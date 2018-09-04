@@ -27,7 +27,15 @@ function distanceTravelledInFeet(start,end){
        }
 }
 
-distanceTravelledInFeet()
+distanceTravelledInFeet(block)
 {
-  
+  if (block <= 400){
+       return 0;
+	}else if(block> 400 && block<= 2000){
+		return  0.02 * (block- 400)
+	}else if (block>2000 && block<= 2500){
+		return 25 
+	}else if(block> 2500){
+		return 'cannot travel that far'
+	}
 }
