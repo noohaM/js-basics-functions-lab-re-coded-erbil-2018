@@ -27,9 +27,9 @@ function distanceTravelledInFeet(start,end){
        }
 }
 
-distanceTravelledInFeet(block)
+function calculatesFarePrice(start,destination)
 {
-  let block= distanceTravelledInFeet(start_b, end_b);
+  let block= distanceTravelledInFeet(start,destination);
   if (block <= 400){
        return 0;
 	}else if(block> 400 && block<= 2000){
